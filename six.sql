@@ -1,0 +1,1 @@
+select * from yrb_purchase where qnty = 0
