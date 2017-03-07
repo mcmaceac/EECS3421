@@ -1,1 +1,3 @@
-select cat from yrb_category where cat like 'h%'
+select cat \
+from yrb_category \
+where cat like 'h%'
