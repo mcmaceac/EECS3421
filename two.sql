@@ -1,7 +1,10 @@
-select N.name, max(N.quant) \
+select C1.name, N1.quant \
 from \
-	(select name, P.club, sum(P.qnty) as quant \
-	from yrb_customer C, yrb_purchase P \
-	where C.cid = P.cid \
-	group by name, P.club) as N \
-group by N.name
+	(select C.cid, max(N.quant) as quant \
+	from \
+		(select cid, sum(qnty) as quant \
+		from yrb_purchase \
+		group by cid, club) as N, yrb_customer C \
+	where C.cid = N.cid \
+	group by C.cid) as N1, yrb_customer C1 \
+where C1.cid = N1.cid

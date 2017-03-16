@@ -1,0 +1,10 @@
+ 
+ 
+
+CID    NAME                 CITY           
+------ -------------------- ---------------
+    31 Parker Posey         Richmond       
+
+  1 record(s) selected.
+
+
