@@ -1,0 +1,53 @@
+ 
+ 
+
+NAME                 QUANT      
+-------------------- -----------
+Tracy Turnip                   3
+Qfwfq                          5
+Fuzzy Fowles                   4
+Suzy Sedwick                   4
+Andy Aardverk                  5
+Boswell Biddles                3
+Cary Cizek                     2
+Jack Daniels                   4
+Doris Daniels                  4
+Egbert Engles                  4
+Sally Mae                      5
+Fanny Mae                      2
+Garp Google                    3
+Kathy Lee Gifford              9
+Henrietta Hogg                 3
+Ingrid Iverson                 5
+George Gush                    5
+Al Bore                        3
+Ekksdwl Qjksynn                5
+Finwick Cooper                 9
+Jackie Johassen                6
+Klive Kittlehart               2
+Lux Luthor                     7
+Clark Kent                     3
+Margaret Mitchie              10
+George Wolf                    6
+Jorge Lobo                     1
+Phil Regis                     7
+Nigel Nerd                     4
+Pretence Parker                3
+Mark Dogfurry                  4
+Oswell Orson                   6
+Quency Quark                   2
+Renee Riztp                    2
+Steve Songheim                 4
+Trixie Trudeau                 4
+Ulya Umbrigde                  2
+Valerie Vixen                  4
+Walter Wynn                    8
+Xia Xu                        10
+Yves Yonge                     6
+Zachary Zoxx                   6
+Zebulon Zilio                  3
+Jack Daniels                   3
+
+  44 record(s) selected.
+
+
