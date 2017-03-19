@@ -1,8 +1,8 @@
-select C1.name, N1.quant \
+select C1.name, N1.quant as number \
 from \
 	(select C.cid, max(N.quant) as quant \
 	from \
-		(select cid, sum(qnty) as quant \
+		(select cid, count(qnty) as quant \
 		from yrb_purchase \
 		group by cid, club) as N, yrb_customer C \
 	where C.cid = N.cid \

@@ -3,7 +3,7 @@ with PurchaseDates as ( \
 		ROW_NUMBER() over (order by cid, when desc) as RowNumber, cid, when \
 	from yrb_purchase \
 ) \
-select N.cid, cast(avg(N.diff) as decimal(7,2)) \
+select N.cid, cast(avg(N.diff) as decimal(7,2)) as avg_gap \
 from \
 	(select O1.cid, cast((days(O1.when) - days(O2.when)) as decimal(7,2)) as diff \
 	from PurchaseDates O1, PurchaseDates O2 \
